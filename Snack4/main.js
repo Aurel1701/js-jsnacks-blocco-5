@@ -10,10 +10,10 @@ const secondArray = [1,2,3,4,5,6]; // array2
 
 let arrayMisto =[]; //final array
 
-function mistoArray(array1,array2){
-    for(let i = 0; i < array1.length; i++){
-        arrayMisto.push(array1[i])
-        arrayMisto.push(array2[i])
+function mistoArray(firstArray,secondArray){
+    for(let i = 0; i < firstArray.length; i++){
+        arrayMisto.push(firstArray[i])
+        arrayMisto.push(secondArray[i])
     }
     return arrayMisto
 }
